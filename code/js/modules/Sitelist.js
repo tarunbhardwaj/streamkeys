@@ -112,6 +112,7 @@
       "myspace": { name: "MySpace", url: "http://www.myspace.com" },
       "music.naver": { name: "Naver Music", url: "https://playerui.music.naver.com", controller: "NaverMusicController.js"},
       "napster": { name: "Napster", url: "https://app.napster.com", controller: "NapsterController.js" },
+      "mynoise": { name: "MyNoise", url: "https://mynoise.net/", controller: "MyNoiseController.js" },
       "netflix": { name: "Netflix", url: "http://www.netflix.com" },
       "noise": { name: "NoiseSupply", url: "http://noise.supply", controller: "NoiseSupplyController.js" },
       "noisli": { name: "Noisli", url: "http://noisli.com", controller: "NoisliController.js" },
