@@ -28,4 +28,13 @@
     return null;
   };
 
+  controller.playNext = function() {
+    var rtPlaySelector = "#real-time-playlist-div .pl-list .list-item:first-child img";
+    var nextSelector = this.selectors.playNext;
+    if (this.doc().querySelector(rtPlaySelector)) {
+      nextSelector = rtPlaySelector;
+    }
+    this.click({action: "playNext", selectorButton: nextSelector, selectorFrame: this.selectors.iframe});
+  };
+
 })();
